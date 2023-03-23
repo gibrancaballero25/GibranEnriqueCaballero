@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(219, 255, 219);
+}
+
+header{  
+    background-color: whitesmoke;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu p {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 2rem;
+}
+
+[data-content] {
+    display: none;
+}
+
+.active[data-content] {
+    display:block;
+}
+
+div{
+    display: flex;
+}
